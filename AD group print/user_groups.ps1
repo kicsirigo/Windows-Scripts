@@ -1,7 +1,7 @@
 Import-Module ActiveDirectory
 
 # --- Choose username ---
-$userName = Read-Host -Prompt "Choose username (pl. Molnar.Mate)"
+$userName = Read-Host -Prompt "Choose username (pl. last_name.fist_name)"
 
 # --- Check if user exists ---
 try {
