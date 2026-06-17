@@ -29,8 +29,8 @@ function Get-FolderVisual {
 }
 
 # Graphical file selection
-$file1 = Get-TxtFileVisual "Select the FIRST .txt file"
-$file2 = Get-TxtFileVisual "Select the SECOND .txt file"
+$file1 = Get-TxtFileVisual "Select the FIRST .txt file that you want to compare against"
+$file2 = Get-TxtFileVisual "Select the SECOND .txt file that you want to compare"
 
 # Check if both files were selected
 if ($null -ne $file1 -and $null -ne $file2) {

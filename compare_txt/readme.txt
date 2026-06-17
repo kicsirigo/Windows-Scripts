@@ -1,5 +1,5 @@
 What this script do?
-This script provides a graphical interface for users to select and compare two text files.
+This script provides a graphical interface for users to select and compare two text files. (FIRST file is the bigger that you want to compare against, the SECOND file is the smaller file, the one you want to compare)
 
 Usage:
 
